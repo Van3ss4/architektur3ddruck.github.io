@@ -14,95 +14,137 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <body class="d-flex flex-column min-vh-100">
+    <body>
 
-        <!-- Header -->
-       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+       <!-- Header -->
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <img src="images/Logo.png" width="50" height="40">
                 <span class="fs-4">&nbsp;&nbsp;&nbsp;Architektur 3D-Druck</span>
-
             </a>
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="index.html" class="nav-link link-secondary">HOME</a></li>
-                <li class="nav-item"><a href="galerie.html" class="nav-link link-secondary">GALERIE</a></li>
-                <li class="nav-item"><a href="kontakt.html" class="nav-link link-dark" aria-current="page">KONTAKT</a></li>
+                <li class="nav-item"><a href="galerie.html" class="nav-link link-dark" aria-current="page">GALERIE</a></li>
+                <li class="nav-item"><a href="kontakt.html" class="nav-link link-secondary">KONTAKT</a></li>
             </ul>
         </header>
 
-        <section class="mb-4">
-            <div class="container" style="margin-bottom: 200px;">
-                <h1 class="h1-responsive font-weight-bold text-center my-4">Kontakt</h1>
-                <p class="text-center w-responsive mx-auto mb-5" style="padding: 3%;">
-                    Kontaktieren Sie uns gerne bei Fragen oder für eine unverbindliche Preisabschätzung.<br>
-                    Gewöhnlich sollten Sie eine Antwort innerhalb eines Werktages erhalten.
-                </p>
-                <div class="row align-items-center">
-                    <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="https://formspree.io/weiva0703@gmail.com" method="POST">
-                            <div class="row" style="margin: 3%;">
-                                <!-- Name -->
-                                <div class="col-md-6 px-2">
-                                    <div class="md-form mb-0">
-                                        <label for="name" class="text-muted">Name</label>
-                                        <input type="text" id="name" name="name" class="form-control">
-                                    </div>
-                                </div>
-                                <!-- Email -->
-                                <div class="col-md-6 px-2">
-                                    <div class="md-form mb-0">
-                                        <label for="email" class="text-muted">E-Mail-Adresse</label>
-                                        <input type="text" id="email" name="email" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row px-2" style="margin: 3%;">
-                                <!-- Betreff -->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <label for="subject" class="text-muted">Betreff</label>
-                                        <input type="text" id="subject" name="subject" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row px-2" style="margin: 3%;">
-                                <!-- Ihre Nachricht -->
-                                <div class="col-md-12">
-                                    <div class="md-form">
-                                        <label for="message" class="text-muted">Nachricht</label>
-                                        <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row px-2" style="margin: 3%;">
-                                <!-- Ihre Nachricht -->
-                                <div class="col-md-12 text-center">
-                                    <input type="submit" class="btn btn-secondary" value="Absenden">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
 
-                    <!-- Kontaktdaten: -->
-                    <div class="col-md-3 text-center">
-                        <ul class="list-unstyled mb-0">
-                            <li>
-                                <i class="bi bi-geo-alt-fill" style="font-size: 2.5rem;"></i>
-                                <p>Rheinstraße, 76185 Karlsruhe</p>
-                            </li>
-                            <li style="margin-top: 30px;">
-                                <i class="bi bi-telephone-fill" style="font-size: 2rem;"></i>
-                                <p>+49 17641162109</p>
-                            </li>
-                            <li style="margin-top: 30px; margin-bottom: 30px;">
-                                <i class="bi bi-envelope-fill" style="font-size: 2rem;"></i>
-                                <p>vw-architektur3ddruck@outlook.de</p>
-                            </li>
-                        </ul>
-                    </div>        
+        <!-- Haus Hockenheim -->
+        <div class="container">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col-lg-6"><img src="images/Haus_vorderansicht.png" style="width: 100%;"></div>
+                    <div class="col-lg-6">
+                        <div class="container">
+                            <div class="card" style="padding-left: 5%; padding-right: 5%;">
+                                <h1 style="margin-top: 20px; margin-bottom: 20px;">
+                                    Einfamilienhaus
+                                </h1>
+                                <ul>
+                                    <li>Das Dach und die einzelnen Stockwerke sind abnehmbar</li>
+                                    <li>Standard Fassaden- und Dachstrukur</li>
+                                    <li>Böden im Innenraum imitiert</li>
+                                    <li>Maßstab 1:50</li>
+                                    <li>Modellierung erfolgte anhand der Grundrisspläne</li>
+                                </ul>
+                            </div>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-6"><img src="images/Haus_offen.png" style="width: 100%;"></div>
+                    <div class="col-xl-6"><img src="images/Haus_rueckansicht.png" style="width: 100%;"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6"><img src="images/haus_nah1.png" style="width: 100%;"></div>
+                    <div class="col-lg-6"><img src="images/haus_nah2.png" style="width: 100%;"></div>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <!-- Trennlinie -->
+        <div class="container" style="margin-top: 70px; margin-bottom: 70px;">
+            <hr>
+        </div>
+
+        <!-- Einfamilienhaus -->
+        <div class="container">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col-lg-6"><img src="images/Hnasehaus2.png" style="width: 100%;"></div>
+                    <div class="col-lg-6">
+                        <div class="card" style="padding-left: 5%; padding-right: 5%;">
+                            <div class="container">
+                                <h1 style="margin: 20px;">
+                                    Hansehaus 45-130
+                                </h1>
+                                <ul>
+                                    <li>Das Dach und die einzelnen Stockwerke sind abnehmbar</li>
+                                    <li>Dachsteine imitiert</li>
+                                    <li>schwarze Fensterrahmen und Eingangstür</li>
+                                    <li>Maßstab 1:70</li>
+                                    <li>Modellierung erfolgte anhand der Grundrisspläne</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-xl-6"><img src="images/Hnasehaus1.png" style="width: 100%;"></div>
+                    <div class="col-xl-6"><img src="images/Hansehaus3.png" style="width: 100%;"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6"><img src="images/Hansehaus_EG.png" style="width: 100%;"></div>
+                    <div class="col-lg-6"><img src="images/Hansehaus_OG.png" style="width: 100%;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trennlinie -->
+        <div class="container" style="margin-top: 70px; margin-bottom: 70px;">
+            <hr>
+        </div>
+        
+        <!-- Baden-baden -->
+        <div class="container justify-content-center">
+            <div class="row align-items-center">
+                <div class="col-lg-6" style="margin: auto;">
+                    <div class="card" style="padding-left: 5%; padding-right: 5%; margin-bottom: 50px;">
+                        <div class="container">
+                            <h1 style="margin: 20px; text-align: left;">
+                                Städtebauliches Modell
+                            </h1>
+                            <ul>
+                                <li>ca. 700 mm x 400 mm Grundfläche</li>
+                                <li>oberstes Stockwerk des neuen Gebäudes abnehmbar</li>
+                                <li>Straßenverlauf durch Vertiefungen angedeutet</li>
+                                <li>Modellierung erfolgte anhand der Baupläne für das neue Gebäude sowie mithilfe einiger Drohnenaufnahmen des Gebiets</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="images/badenbaden_gedreht.png">
+                    <source media="(min-width: 601px)" srcset="images/badenbaden.png">
+                    <img src="images/badenbaden.png" style="max-width: 90%; margin: auto;">
+                </picture>
+            </div>
+            
+            
+        </div>
+
+        <!-- Trennlinie -->
+        <div class="container" style="margin-top: 70px; margin-bottom: 70px;">
+            <hr>
+        </div>
+        
+        <p class="text-muted text-center">
+            Fotos werden hier nur mit Einverständnis der Auftraggebenden hochgeladen
+        </p>
 
 
         <!-- Fußzeile -->
@@ -130,6 +172,7 @@
                 </div>
             </div>
         </footer>   
-
+        
     </body>
+
 </html>
